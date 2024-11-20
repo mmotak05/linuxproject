@@ -1,3 +1,8 @@
+﻿# 게임에서 사용할 캐릭터를 정의합니다.
+
+
+
+# 여기에서부터 게임이 시작합니다.
 label start:
     jump tetris_start
    # row - field width
@@ -708,4 +713,3 @@ screen difficulty_choice():
             text 'Impossible' align .5,.5 size 60 color '#000'
 
     return
-
